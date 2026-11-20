@@ -1,0 +1,89 @@
+DocIndexer
+Copyright (C) 2026 Andrea Cumini <andrea@osintinfo.net>
+https://www.osintinfo.net
+
+This program is free software: you can redistribute it and/or modify it
+under the terms of the GNU Affero General Public License as published by the
+Free Software Foundation, version 3 of the License, together with the
+additional terms below.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more
+details.
+
+The full text of the GNU Affero General Public License version 3 is in the
+file LICENSE. It is also available at <https://www.gnu.org/licenses/agpl-3.0.html>.
+
+
+ADDITIONAL TERMS (GNU AGPL version 3, section 7)
+================================================
+
+1. Attribution (section 7(b))
+
+   Every copy of this program, and every work based on it, must preserve:
+
+   (a) the copyright and license notices in the source files, and this
+       NOTICE file;
+
+   (b) the author attribution
+
+           Andrea Cumini - andrea@osintinfo.net - www.osintinfo.net
+
+       in the source files, in the documentation and in the user interface,
+       where it is displayed as the credits block next to the logo at the top
+       of the main window and is part of the Appropriate Legal Notices of the
+       program.
+
+   The attribution must remain legible. Modified versions may add their own
+   notices next to it, but may not remove, hide or alter it.
+
+2. Modified versions (section 7(c))
+
+   Modified versions must be marked in a reasonable way as different from
+   the original version, and must not misrepresent the origin of the
+   material.
+
+3. Name and logo (section 7(e))
+
+   The name "DocIndexer", its logo and its "DI" icon (logo.png,
+   docindexer.ico, docindexer.png and the same artwork inside the program's
+   window and executable) identify the original program and
+   its author. The License does not grant any right to use them as a trade
+   name, trademark or service mark: a modified version distributed to others
+   must use a different name and logo. Unmodified copies may keep them.
+
+
+SOURCE CODE (section 13)
+========================
+
+If you run a modified version of this program for users who interact with it
+remotely through a computer network, you must offer them the Corresponding
+Source of that version, as required by section 13 of the License.
+
+
+CREDITS
+=======
+
+The interface theme and the logo style come from PCSnex and AndrOsint, by
+the same author. OCR runs on RapidOCR.
+
+The logo and the icon are set in Panchang, a typeface by Indian Type Foundry
+(ITF), which owns its trademarks and copyright
+<https://www.fontshare.com/fonts/panchang>. They contain images only: the
+font is not distributed with this program.
+
+
+THIRD-PARTY SOFTWARE
+====================
+
+DocIndexer is distributed under the GNU AGPL v3 also because it uses PyMuPDF
+(Artifex Software), which is licensed under the GNU AGPL v3 or, separately,
+under a commercial license from Artifex.
+
+The OCR models (PaddleOCR PP-OCRv6 / PP-OCRv5, Apache License 2.0, converted
+to ONNX by the RapidOCR project, Apache License 2.0) are copied or downloaded
+into the tools/rapidocr folder next to the program. The other libraries keep
+their own licenses. The full list, with licenses and notes for the compiled
+executable, is in THIRD_PARTY_NOTICES.md; the Apache License 2.0 text is in
+LICENSES/Apache-2.0.txt.

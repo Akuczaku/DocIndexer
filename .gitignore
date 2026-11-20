@@ -1,0 +1,37 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Build output
+build/
+dist/
+*.spec
+
+# Runtime data: database, index, caches, logs
+data/
+cache/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.log
+logs/
+
+# User configuration
+config.json
+
+# External tools downloaded by the app (7-Zip, ExifTool, RapidOCR models)
+tools/
+
+# IDE
+.idea/
+.vscode/
+
+# Secrets
+.env
+*.pem
+*.key
